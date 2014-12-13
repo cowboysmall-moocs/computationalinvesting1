@@ -1,0 +1,39 @@
+[ jerry@pantagruel compinvesting1 ] $ python src/challenge2/simulator.py 500 1000000
+
+                    Marriage (Uniform)
+
+           Minimum: 0.594
+   25th Percentile: 0.67
+            Median: 0.682
+   75th Percentile: 0.694
+           Maximum: 0.762
+
+              Mean: 0.68269838
+Standard Deviation: 0.01753207533
+          Variance: 0.000307373665376
+
+
+                    Marriage (Normal)
+
+           Minimum: 0.598
+   25th Percentile: 0.672
+            Median: 0.684
+   75th Percentile: 0.696
+           Maximum: 0.764
+
+              Mean: 0.684239652
+Standard Deviation: 0.0175164918554
+          Variance: 0.000306827486919
+
+
+                    Marriage (Even)
+
+           Minimum: 0.64
+   25th Percentile: 0.678
+            Median: 0.684
+   75th Percentile: 0.69
+           Maximum: 0.728
+
+              Mean: 0.684503894
+Standard Deviation: 0.00903532926001
+          Variance: 8.16371748368e-05
