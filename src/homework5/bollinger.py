@@ -15,8 +15,8 @@ def bollinger_bands(timestamps, close, symbol):
     bollinger = pd.DataFrame(index = timestamps, columns = ['price', 'mean', 'upper', 'lower', 'value'])
     bollinger = bollinger.fillna(0)
 
-    rolling_mean = pd.rolling_mean(close[symbol], 20)
-    rolling_std  = pd.rolling_std(close[symbol], 20)
+    rolling_mean       = pd.rolling_mean(close[symbol], 20)
+    rolling_std        = pd.rolling_std(close[symbol], 20)
 
     bollinger['price'] = close[symbol]
     bollinger['mean']  = rolling_mean
