@@ -56,8 +56,8 @@ def main(argv):
 
     normal = []
     for _ in xrange(iterations):
-        men     = np.random.normal(100, 17, pool_size).tolist()
-        women   = np.random.normal(100, 17, pool_size).tolist()
+        men     = np.random.normal(100, 33, pool_size).tolist()
+        women   = np.random.normal(100, 33, pool_size).tolist()
         normal.append(run_simulation(men, women, pool_size))
 
     even = []

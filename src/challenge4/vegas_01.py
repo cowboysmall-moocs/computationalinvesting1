@@ -35,7 +35,7 @@ def main(argv):
     print 'Vegas Simulation - %s iterations' % (total_iterations)
     print
     print ' Probability'
-    print '       Successes: %15s' % (success_count)
+    print '       Successes: %15s'   % (success_count)
     print '      Proportion: %15.2f' % (proportion)
     print ' Expected Profit: %15.2f' % ((proportion * winning_margin) - ((1 - proportion) * starting_amount))
     print
